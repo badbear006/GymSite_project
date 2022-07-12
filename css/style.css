@@ -1,0 +1,157 @@
+body {
+    background: url(https://images.hdqwalls.com/download/fitness-gym-girl-nb-1920x1080.jpg);
+    margin: 90px;
+    padding: 0;
+    background-position: center;
+    height: 900px;
+    background-color: red;
+    background-blend-mode: darken;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.mid {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    /* mid section  */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 30px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(245, 112, 112);
+}
+
+
+/* logo section  */
+
+.left img {
+    width: 50px;
+    filter: invert(100%);
+
+
+
+}
+
+/* button  */
+
+.btn {
+    margin: 5px 0px;
+    padding: 4px 14px;
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    border-radius: 10px;
+    
+    
+}
+
+.btn2c :hover {
+    background-color: red;
+}
+
+
+.btn2 {
+    position: relative;
+    margin-left: 0px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 72px;
+    height: 25px;
+
+
+
+
+}
+
+.btn2c {
+    position: absolute;
+    padding: 10px;
+}
+
+.container {
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    margin-top: 200px;
+    padding: 100px;
+    margin-left: 350px;
+    font-size: 50px;
+    color: floralwhite;
+}
+
+.container2 {
+    background-color: black;
+    border: solid 2px red;
+    width: 506px;
+    border-radius: 20px 20px 10px 10px;
+    padding: 0px 0px;
+    margin-left: 375px;
+    margin-top: 289px;
+    text-align: center;
+
+
+}
+
+.form-group input {
+    text-align: center;
+    width: 470px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+.btn3 {
+    margin-left: 215px;
+    padding: 9px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    width: 60px;
+    height: 15px;
+    cursor: pointer;
+
+}
+
+.btn3 :hover {
+    background-color: red;
+}
+
+
